@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Cipher</title>
+   
+    <link rel="icon" type="image/png" href="public/favicon.png" />
+    <link rel="stylesheet" href="src/estilos.css" />
+   
+  </head>
+  <body>
+    <div>
+      <h1>Programa de Criptografía</h1>
+      <p>
+        Este programa te permite encriptar y desencriptar mensajes usando un
+        algoritmo simple.
+      </p>
+      <div>
+        <div>
+          <textarea
+            class="small-textarea"
+            type="text"
+            id="input"
+            placeholder="Escribe tu mensaje aquí"></textarea>
+          <p>
+            <img src="public/infoIcon.svg" alt="info" /> Solo letras minúsculas
+            y sin acentos
+          </p>
+          <button  id="encriptarBoton">Encriptar</button>
+          <button  id="desencriptarBoton">Desencriptar</button>
+        </div>
+        <div>
+          <textarea  
+            class="small-textarea"
+            type="text"
+            id="output"
+            placeholder="Aquí aparecerá tu resultado"
+            readonly></textarea>
+            <p>     
+            </p>
+          <button id="copiarBoton">Copiar</button>
+          <button id="limpiarBoton">Limpiar</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <div>
+          <div>
+            <p>
+              &copy; 2023 Creado por
+              <a href="https://github.com/MAY_ALVAREZ" target="_blank"
+                >MAY ALVAREZ</a
+              >.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script/principal.js" type="module"></script>
+  </body>
+</html>
