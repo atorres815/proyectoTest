@@ -1,0 +1,6 @@
+textarea {
+  font-family: Courier, sans-serif;
+  height: 6.4em; /* a bit less than four lines to demonstrate scrolling */
+  width: 500px;
+}
+
